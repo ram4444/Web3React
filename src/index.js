@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import ConnectMetaMask from './ConnectMetaMask';
+import TestCallContract from './TestCallContract';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <ConnectMetaMask />
+      <TestCallContract />
   </React.StrictMode>,
   document.getElementById('root')
 );
