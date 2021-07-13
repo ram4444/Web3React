@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import ConnectMetaMask from './ConnectMetaMask';
-import TestCallContract from './TestCallContract';
+import CallContractFunc from './CallContractFunc';
+import SendEther2Contract from './SendEther2Contract';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
       <ConnectMetaMask />
-      <TestCallContract />
+      <SendEther2Contract />
+      <CallContractFunc />
   </React.StrictMode>,
   document.getElementById('root')
 );
