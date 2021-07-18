@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
-import ConnectMetaMask from './ConnectMetaMask';
-import CallContractFunc from './CallContractFunc';
-import SendEther2Contract from './SendEther2Contract';
 import reportWebVitals from './reportWebVitals';
+
+//components
+import ConnectMetaMask from './component/ConnectMetaMask';
+import CallContractFunc from './component/CallContractFunc';
+import Send2PayableFunc from './component/Send2PayableFunc';
+import SendEther2Contract from './component/SendEther2Contract';
+import Withdraw from './component/Withdraw';
+import Owner from './component/Owner';
+
 
 ReactDOM.render(
   <React.StrictMode>
       <ConnectMetaMask />
       <SendEther2Contract />
+      <Send2PayableFunc />
       <CallContractFunc />
+      <Withdraw />
+      <Owner />
   </React.StrictMode>,
   document.getElementById('root')
 );
