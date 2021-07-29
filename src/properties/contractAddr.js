@@ -1,3 +1,4 @@
 export const contractAddr = {
-    TestPayable: "0x721497a27FbC9bc10294165dbEc4c40eCaefF19c"
+    TestPayable: "0x13935ec2330AD3476A74f84088F130975Fe35301",
+    TestERC20: "0xbbeB26b6773feF8dBe9865A7023FA004E08C31FF"
 };

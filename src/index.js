@@ -9,7 +9,11 @@ import CallContractFunc from './component/CallContractFunc';
 import Send2PayableFunc from './component/Send2PayableFunc';
 import SendEther2Contract from './component/SendEther2Contract';
 import Withdraw from './component/Withdraw';
+import PassHalfEther from './component/PassHalfEther';
 import Owner from './component/Owner';
+import MintERC20 from './component/ERC20/MintERC20';
+import TransferERC20 from './component/ERC20/TransferERC20';
+import TotalSupplyERC20 from './component/ERC20/TotalSupplyERC20';
 
 
 ReactDOM.render(
@@ -20,6 +24,11 @@ ReactDOM.render(
       <CallContractFunc />
       <Withdraw />
       <Owner />
+      <PassHalfEther />
+      <br />
+      <MintERC20 />
+      <TransferERC20 />
+      <TotalSupplyERC20 />
   </React.StrictMode>,
   document.getElementById('root')
 );
